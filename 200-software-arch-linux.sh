@@ -129,6 +129,7 @@ mpv
 smplayer
 smplayer-skins
 smplayer-themes
+peek
 )
 
 count=0
