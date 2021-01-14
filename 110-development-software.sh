@@ -47,7 +47,8 @@ echo "Installation of the development packages"
 ###############################################################################
 
 list=(
-firefox
+brave
+firefox-developer-edition
 sublime-text-dev
 flameshot
 meld
