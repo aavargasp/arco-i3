@@ -70,9 +70,13 @@ done
 func_category Development
 
 list=(
-atom
+nodejs
+npm
+yarn
+jdk-openjdk
+intellij-idea-community-edition
 meld
-sublime-text-dev
+dbeaver
 )
 
 count=0
@@ -104,7 +108,8 @@ done
 func_category Internet
 
 list=(
-chromium
+firefox
+firefox-developer-edition
 qbittorrent
 )
 
@@ -120,7 +125,10 @@ done
 func_category Multimedia
 
 list=(
-vlc
+mpv
+smplayer
+smplayer-skins
+smplayer-themes
 )
 
 count=0
