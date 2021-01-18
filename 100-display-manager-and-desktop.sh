@@ -66,6 +66,11 @@ arcolinux-i3wm-git
 arcolinux-config-i3wm-git
 arcolinux-i3wm-dconf-git
 arcolinux-logout-git
+zsh
+zsh-completions
+zsh-syntax-highlighting
+oh-my-zsh-git
+arcolinux-zsh-git
 )
 
 count=0

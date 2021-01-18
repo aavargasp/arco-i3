@@ -56,6 +56,8 @@ func_category Arcolinux-Desktop
 
 list=(
 arcolinux-polybar-git
+arcolinux-rofi-git
+arcolinux-rofi-themes-git
 )
 
 count=0

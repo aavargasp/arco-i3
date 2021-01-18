@@ -56,8 +56,9 @@ func_category Any_software_from_arcolinux_xlarge_repository
 
 list=(
 brave-bin
-gitahead
+gitkraken
 visual-studio-code-bin
+bitwarden-bin
 )
 
 count=0

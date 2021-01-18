@@ -38,7 +38,7 @@ func_install() {
     	echo "###############################################################################"
     	echo
     	tput sgr0
-    	sudo pacman -S --noconfirm --needed $1
+    	yay -S --norebuild --nocleanmenu--nodiffmenu --noeditmenu --noremovemake --cleanafter --noconfirm --needed $1
     fi
 }
 
@@ -55,11 +55,8 @@ func_category() {
 func_category Accessories
 
 list=(
-variety
-galculator
-peek
-flameshot
-simplescreenrecorder
+bitwarden-cli-bin
+bitwarden-rofi-git
 )
 
 count=0
@@ -74,13 +71,7 @@ done
 func_category Development
 
 list=(
-nodejs
-npm
-yarn
-jdk-openjdk
-intellij-idea-community-edition
-meld
-dbeaver
+
 )
 
 count=0
@@ -95,9 +86,7 @@ done
 func_category Graphics
 
 list=(
-gimp
-inkscape
-nomacs
+
 )
 
 count=0
@@ -112,10 +101,7 @@ done
 func_category Internet
 
 list=(
-firefox
-firefox-developer-edition
-qbittorrent
-telegram-desktop
+
 )
 
 count=0
@@ -130,10 +116,7 @@ done
 func_category Multimedia
 
 list=(
-mpv
-smplayer
-smplayer-skins
-smplayer-themes
+
 )
 
 count=0
@@ -148,7 +131,7 @@ done
 func_category Office
 
 list=(
-evince
+
 )
 
 count=0
@@ -163,15 +146,7 @@ done
 func_category System
 
 list=(
-gnome-disk-utility
-gparted
-dconf-editor
-arc-gtk-theme
-gnome-keyring
-seahorse
-rofi
-xdotool
-xclip
+rcm-git
 )
 
 count=0
@@ -186,15 +161,7 @@ done
 func_category Unpack
 
 list=(
-unace
-unrar
-zip
-unzip
-sharutils
-uudeview
-arj
-cabextract
-file-roller
+
 )
 
 count=0
