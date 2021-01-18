@@ -71,7 +71,9 @@ done
 func_category Development
 
 list=(
-
+nodenv
+nodenv-node-build
+insomnia-bin
 )
 
 count=0

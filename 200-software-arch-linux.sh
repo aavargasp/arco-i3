@@ -163,6 +163,8 @@ done
 func_category System
 
 list=(
+termite
+kitty
 gnome-disk-utility
 gparted
 dconf-editor
