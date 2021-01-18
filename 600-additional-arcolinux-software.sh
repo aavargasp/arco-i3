@@ -58,6 +58,9 @@ list=(
 arcolinux-polybar-git
 arcolinux-rofi-git
 arcolinux-rofi-themes-git
+arcolinux-qt5-git
+arcolinux-kvantum-git
+arcolinux-kvantum-theme-arc-git 
 )
 
 count=0

@@ -64,6 +64,8 @@ i3blocks
 imagemagick
 lxappearance
 lxrandr
+qt5ct
+kvantum-qt5
 nitrogen
 picom
 playerctl
