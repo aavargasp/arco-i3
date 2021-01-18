@@ -38,7 +38,7 @@ func_install() {
     	echo "###############################################################################"
     	echo
     	tput sgr0
-    	yay -S --norebuild --nocleanmenu--nodiffmenu --noeditmenu --noremovemake --cleanafter --noconfirm --needed $1
+    	yay -S --norebuild --nocleanmenu --nodiffmenu --noeditmenu --noremovemake --cleanafter --noconfirm --needed $1
     fi
 }
 
