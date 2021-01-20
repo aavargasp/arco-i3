@@ -55,11 +55,7 @@ func_category() {
 func_category Accessories
 
 list=(
-variety
-galculator
-peek
-flameshot
-simplescreenrecorder
+
 )
 
 count=0
@@ -74,14 +70,7 @@ done
 func_category Development
 
 list=(
-nodejs
-npm
-yarn
-jdk-openjdk
-intellij-idea-community-edition
-meld
-dbeaver
-docker
+
 )
 
 count=0
@@ -96,9 +85,7 @@ done
 func_category Graphics
 
 list=(
-gimp
-inkscape
-nomacs
+
 )
 
 count=0
@@ -113,11 +100,8 @@ done
 func_category Internet
 
 list=(
-firefox
-firefox-developer-edition
-thunderbird
-qbittorrent
-telegram-desktop
+slack-desktop
+teams
 )
 
 count=0
@@ -132,10 +116,7 @@ done
 func_category Multimedia
 
 list=(
-mpv
-smplayer
-smplayer-skins
-smplayer-themes
+
 )
 
 count=0
@@ -150,7 +131,7 @@ done
 func_category Office
 
 list=(
-evince
+
 )
 
 count=0
@@ -165,18 +146,7 @@ done
 func_category System
 
 list=(
-termite
-kitty
-gnome-disk-utility
-gparted
-dconf-editor
-arc-gtk-theme
-gnome-keyring
-seahorse
-rofi
-xdotool
-xclip
-mesa-demos
+
 )
 
 count=0
@@ -191,15 +161,7 @@ done
 func_category Unpack
 
 list=(
-unace
-unrar
-zip
-unzip
-sharutils
-uudeview
-arj
-cabextract
-file-roller
+
 )
 
 count=0

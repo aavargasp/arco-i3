@@ -59,6 +59,8 @@ brave-bin
 gitkraken
 visual-studio-code-bin
 bitwarden-bin
+spotify
+zoom
 )
 
 count=0
