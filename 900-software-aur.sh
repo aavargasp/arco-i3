@@ -149,6 +149,7 @@ func_category System
 
 list=(
 rcm-git
+volctl
 )
 
 count=0

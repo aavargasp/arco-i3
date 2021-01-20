@@ -101,6 +101,7 @@ done
 func_category Multimedia
 
 list=(
+spotifywm-git
 )
 
 count=0
