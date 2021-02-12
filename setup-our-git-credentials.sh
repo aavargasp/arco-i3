@@ -57,30 +57,32 @@ case $CHOICE in
       ;;
 
     1 )
-			git config --global pull.rebase false
-			git config --global push.default simple
-			git config --global user.name "Andres Vargas"
-			git config --global user.email "avargasp87@gmail.com"
-			sudo git config --system core.editor nano
-			git config --global credential.helper cache
-			git config --global credential.helper 'cache --timeout=32000'
-			git config --global user.signingkey 30F2B65B9246B6CA
-			git config --global commit.gpgsign true
+      sudo git config --system core.editor nano
+      git config --global pull.rebase false
+      git config --global push.default simple
+      git config --global user.name "Andres Vargas"
+      git config --global user.email "avargasp87@gmail.com"
+      git config --global user.signingkey 30F2B65B9246B6CA
+      git config --global credential.helper cache
+      git config --global credential.helper 'cache --timeout=32000'
+      git config --global commit.gpgsign true
       ;;
     2 )
-			git config --global pull.rebase false
-			git config --global push.default simple
-			git config --global user.name "Andres Vargas"
-			git config --global user.email "avargas@acid.cl"
-			sudo git config --system core.editor nano
-			git config --global credential.helper cache
-			git config --global credential.helper 'cache --timeout=32000'
-			git config --global includeif.gitdir:~/Develop/cencosud/.path=~/Develop/cencosud/.gitconfig
+      sudo git config --system core.editor nano
+      git config --global pull.rebase false
+      git config --global push.default simple
+      git config --global user.name "Andres Vargas"
+      git config --global user.email "avargas@acid.cl"
+      git config --global user.signingkey 51297874C9925615
+      git config --global credential.helper cache
+      git config --global credential.helper 'cache --timeout=32000'
+      git config --global commit.gpgsign true
+      git config --global includeif.gitdir:~/Develop/cencosud/.path=~/Develop/cencosud/.gitconfig
       ;;
     3 )
-			#git config --local user.email "andres.vargaspanza@externos-cl.cencosud.com"
-			echo "[user]" > .gitconfig
-			echo "	email = andres.vargaspanza@externos-cl.cencosud.com" >> .gitconfig
+      #Directory /Develop/cencosud/
+      git config -f /Develop/cencosud/.gitconfig user.email "andres.vargaspanza@externos-cl.cencosud.com"
+      git config -f /Develop/cencosud/.gitconfig user.signingkey 6E521BD598619496
       ;;
     4 )
       echo
