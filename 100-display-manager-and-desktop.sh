@@ -69,6 +69,7 @@ arcolinux-logout-git
 zsh
 zsh-completions
 zsh-syntax-highlighting
+zsh-autosuggestions
 oh-my-zsh-git
 arcolinux-zsh-git
 )
