@@ -212,7 +212,6 @@ done
 func_category Themes
 
 list=(
-matcha-gtk-theme
 )
 
 count=0

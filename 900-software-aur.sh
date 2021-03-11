@@ -164,6 +164,7 @@ done
 func_category Themes
 
 list=(
+matcha-gtk-theme
 kvantum-theme-matcha-git
 )
 
