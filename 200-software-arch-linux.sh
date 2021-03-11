@@ -55,9 +55,7 @@ func_category() {
 func_category Accessories
 
 list=(
-variety
 galculator
-peek
 flameshot
 simplescreenrecorder
 )

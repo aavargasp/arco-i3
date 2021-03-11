@@ -62,7 +62,7 @@ case $CHOICE in
       git config --global push.default simple
       git config --global user.name "Andres Vargas"
       git config --global user.email "avargasp87@gmail.com"
-      git config --global user.signingkey 30F2B65B9246B6CA
+      git config --global user.signingkey 7FBE32AAF8B0F76F
       git config --global credential.helper cache
       git config --global credential.helper 'cache --timeout=32000'
       git config --global commit.gpgsign true
@@ -81,8 +81,8 @@ case $CHOICE in
       ;;
     3 )
       #Directory /Develop/cencosud/
-      git config -f /Develop/cencosud/.gitconfig user.email "andres.vargaspanza@externos-cl.cencosud.com"
-      git config -f /Develop/cencosud/.gitconfig user.signingkey 6E521BD598619496
+      git config -f Develop/cencosud/.gitconfig user.email "andres.vargaspanza@externos-cl.cencosud.com"
+      git config -f Develop/cencosud/.gitconfig user.signingkey 6E521BD598619496
       ;;
     4 )
       echo

@@ -82,6 +82,7 @@ xfce4-settings
 xfce4-screenshooter
 xfce4-taskmanager
 xfce4-terminal
+xfce4-clipman-plugin
 hardcode-fixer-git
 )
 
