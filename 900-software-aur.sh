@@ -161,10 +161,10 @@ done
 
 ###############################################################################
 
-func_category Unpack
+func_category Themes
 
 list=(
-
+kvantum-theme-matcha-git
 )
 
 count=0

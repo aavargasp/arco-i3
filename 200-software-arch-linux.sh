@@ -209,6 +209,21 @@ done
 
 ###############################################################################
 
+func_category Themes
+
+list=(
+matcha-gtk-theme
+)
+
+count=0
+for name in "${list[@]}" ; do
+	count=$[count+1]
+	tput setaf 3;echo "Installing package nr.  "$count " " $name;tput sgr0;
+	func_install $name
+done
+
+###############################################################################
+
 tput setaf 11;
 echo "################################################################"
 echo "Software has been installed"
