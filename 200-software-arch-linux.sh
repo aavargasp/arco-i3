@@ -111,7 +111,6 @@ done
 func_category Internet
 
 list=(
-firefox
 firefox-developer-edition
 thunderbird
 qbittorrent
@@ -175,6 +174,15 @@ rofi
 xdotool
 xclip
 mesa-demos
+barrier
+grub-customizer
+procs
+exa
+bat
+tigervnc
+remmina
+libvncserver
+freerdp
 )
 
 count=0

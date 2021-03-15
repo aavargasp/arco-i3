@@ -103,7 +103,7 @@ done
 func_category Internet
 
 list=(
-
+librewolf-bin
 )
 
 count=0

@@ -120,6 +120,7 @@ list=(
 downgrade
 inxi
 pamac-aur
+paru
 )
 
 count=0
