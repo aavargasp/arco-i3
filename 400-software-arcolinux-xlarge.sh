@@ -62,6 +62,7 @@ visual-studio-code-bin
 bitwarden-bin
 spotify
 zoom
+librewolf-bin
 )
 
 count=0

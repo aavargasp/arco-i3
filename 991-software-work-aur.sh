@@ -55,8 +55,7 @@ func_category() {
 func_category Accessories
 
 list=(
-bitwarden-cli-bin
-bitwarden-rofi-git
+
 )
 
 count=0
@@ -71,9 +70,7 @@ done
 func_category Development
 
 list=(
-nodenv
-nodenv-node-build
-insomnia-bin
+aws-cli-v2-bin
 )
 
 count=0
@@ -147,8 +144,7 @@ done
 func_category System
 
 list=(
-rcm-git
-volctl
+
 )
 
 count=0
@@ -163,8 +159,7 @@ done
 func_category Themes
 
 list=(
-matcha-gtk-theme
-kvantum-theme-matcha-git
+
 )
 
 count=0
