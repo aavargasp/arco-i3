@@ -68,6 +68,7 @@ qt5ct
 kvantum-qt5
 nitrogen
 picom
+dunst
 playerctl
 polybar
 python-pywal
@@ -75,8 +76,6 @@ volumeicon
 w3m
 urxvt-resize-font-git
 xfce4-appfinder
-xfce4-notifyd
-xfce4-power-manager
 xfce4-screenshooter
 xfce4-settings
 xfce4-screenshooter
