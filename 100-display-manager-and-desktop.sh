@@ -47,9 +47,9 @@ echo "Installation of the core software"
 ###############################################################################
 
 list=(
-lightdm
-arcolinux-lightdm-gtk-greeter
-arcolinux-lightdm-gtk-greeter-settings
+sddm
+sddm-config-editor-git
+arcolinux-sddm-sugar-candy-git
 arcolinux-wallpapers-git
 thunar
 thunar-archive-plugin

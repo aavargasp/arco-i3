@@ -60,7 +60,9 @@ arcolinux-rofi-git
 arcolinux-rofi-themes-git
 arcolinux-qt5-git
 arcolinux-kvantum-git
-arcolinux-kvantum-theme-arc-git 
+arcolinux-kvantum-theme-arc-git
+arcolinux-plank-git
+arcolinux-plank-themes-git
 )
 
 count=0
@@ -80,6 +82,22 @@ arcolinux-root-git
 arcolinux-termite-themes-git
 arcolinux-tweak-tool-git
 arcolinux-variety-git
+)
+
+count=0
+for name in "${list[@]}" ; do
+	count=$[count+1]
+	tput setaf 3;echo "Installing package nr.  "$count " " $name;tput sgr0;
+	func_install $name
+done
+
+###############################################################################
+
+func_category Arcolinux-Others
+
+list=(
+arcolinux-teamviewer
+arcolinux-meta-fun
 )
 
 count=0

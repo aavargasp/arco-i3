@@ -63,6 +63,9 @@ bitwarden-bin
 spotify
 zoom
 librewolf-bin
+faba-icon-theme-git
+moka-icon-theme-git
+paper-icon-theme
 )
 
 count=0

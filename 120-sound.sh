@@ -50,17 +50,17 @@ list=(
 pulseaudio
 pulseaudio-alsa
 pavucontrol
-alsa-firmware
-alsa-lib
-alsa-plugins
 alsa-utils
+alsa-plugins
+alsa-lib
+alsa-firmware
 gstreamer
 gst-plugins-good
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-ugly
-playerctl
 volumeicon
+playerctl
 )
 
 count=0
