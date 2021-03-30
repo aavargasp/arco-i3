@@ -64,12 +64,14 @@ ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
 ttf-fira-code
+ttf-font-awesome
 ttf-hack
 ttf-inconsolata
 ttf-liberation
 ttf-roboto
 ttf-ubuntu-font-family
 tamsyn-font
+terminus-font
 )
 
 count=0

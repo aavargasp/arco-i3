@@ -57,6 +57,7 @@ func_category Accessories
 list=(
 mintstick-git
 font-manager-git
+screenkey-git
 )
 
 count=0
@@ -72,6 +73,7 @@ func_category Development
 
 list=(
 sublime-text-dev
+gitahead-bin
 )
 
 count=0
@@ -102,6 +104,27 @@ func_category Multimedia
 
 list=(
 spotifywm-git
+)
+
+count=0
+
+for name in "${list[@]}" ; do
+	count=$[count+1]
+	tput setaf 3;echo "Installing package nr.  "$count " " $name;tput sgr0;
+	func_install $name
+done
+
+###############################################################################
+
+func_category Theme
+
+list=(
+numix-circle-arc-icons-git
+numix-circle-icon-theme-git
+numix-gtk-theme-git
+openbox-themes-pambudi-git
+oxy-neon
+surfn-mint-y-icons-git
 )
 
 count=0

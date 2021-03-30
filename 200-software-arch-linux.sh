@@ -58,6 +58,7 @@ list=(
 galculator
 flameshot
 simplescreenrecorder
+liferea
 )
 
 count=0
@@ -133,6 +134,7 @@ mpv
 smplayer
 smplayer-skins
 smplayer-themes
+youtube-dl
 )
 
 count=0
@@ -148,6 +150,10 @@ func_category Office
 
 list=(
 evince
+libreoffice-fresh
+hunspell-en_us
+hunspell-es_cl
+hunspell-es_any
 )
 
 count=0
@@ -162,6 +168,8 @@ done
 func_category System
 
 list=(
+htop
+bashtop
 termite
 kitty
 gnome-disk-utility
@@ -183,6 +191,8 @@ tigervnc
 remmina
 libvncserver
 freerdp
+plank
+ranger
 )
 
 count=0
@@ -220,6 +230,16 @@ done
 func_category Themes
 
 list=(
+adapta-gtk-theme
+arc-icon-theme
+capitaine-cursors
+materia-gtk-theme
+papirus-icon-theme
+xcursor-comix
+xcursor-flatbed
+xcursor-neutral
+xcursor-premium
+xcursor-simpleandsoft
 )
 
 count=0

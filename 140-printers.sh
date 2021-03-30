@@ -49,12 +49,20 @@ echo "Installation of printer software"
 list=(
 cups
 cups-pdf
+cups-filters
+gtk3-print-backends
 ghostscript
 gsfonts
+foomatic-db-engine
+foomatic-db
+foomatic-db-ppds
+foomatic-db-nonfree
+foomatic-db-nonfree-ppds
 gutenprint
-gtk3-print-backends
-libcups
+foomatic-db-gutenprint-ppds
 system-config-printer
+hplip
+libcups
 )
 
 count=0
