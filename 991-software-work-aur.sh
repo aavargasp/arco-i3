@@ -38,7 +38,7 @@ func_install() {
     	echo "###############################################################################"
     	echo
     	tput sgr0
-    	paru -S --skipreview --nouseask $1
+    	paru -S --skipreview --nouseask --noconfirm $1
     fi
 }
 

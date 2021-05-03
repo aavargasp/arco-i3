@@ -38,7 +38,7 @@ func_install() {
     	echo "###############################################################################"
     	echo
     	tput sgr0
-    	paru -S --skipreview --nouseask $1
+    	paru -S --skipreview --nouseask --noconfirm $1
     fi
 }
 
@@ -165,6 +165,23 @@ func_category Themes
 list=(
 matcha-gtk-theme
 kvantum-theme-matcha-git
+)
+
+count=0
+for name in "${list[@]}" ; do
+	count=$[count+1]
+	tput setaf 3;echo "Installing package nr.  "$count " " $name;tput sgr0;
+	func_install $name
+done
+
+###############################################################################
+
+func_category Fonts
+
+list=(
+nerd-fonts-fira-code
+nerd-fonts-hack
+nerd-fonts-terminus
 )
 
 count=0
