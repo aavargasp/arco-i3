@@ -79,9 +79,7 @@ list=(
 arcolinux-bin-git
 arcolinux-hblock-git
 arcolinux-root-git
-arcolinux-termite-themes-git
 arcolinux-tweak-tool-git
-arcolinux-variety-git
 )
 
 count=0
@@ -98,6 +96,7 @@ func_category Arcolinux-Others
 list=(
 arcolinux-teamviewer
 arcolinux-meta-fun
+arcolinux-meta-samba
 )
 
 count=0

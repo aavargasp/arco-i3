@@ -144,6 +144,8 @@ downgrade
 inxi
 pamac-aur
 paru
+duf
+xlunch-git
 )
 
 count=0

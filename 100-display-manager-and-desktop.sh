@@ -54,6 +54,7 @@ arcolinux-wallpapers-git
 thunar
 thunar-archive-plugin
 thunar-volman
+thunar-shares-plugin
 xfce4-terminal
 arcolinux-xfce-git
 arcolinux-local-xfce4-git

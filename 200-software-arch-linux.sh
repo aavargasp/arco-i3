@@ -170,7 +170,6 @@ func_category System
 list=(
 htop
 bashtop
-termite
 kitty
 gnome-disk-utility
 gparted
@@ -193,6 +192,7 @@ libvncserver
 freerdp
 plank
 ranger
+redshift
 )
 
 count=0
