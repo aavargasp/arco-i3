@@ -167,6 +167,7 @@ done
 func_category System
 
 list=(
+autorandr
 htop
 bashtop
 kitty
