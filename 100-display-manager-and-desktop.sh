@@ -62,7 +62,6 @@ i3-gaps
 i3status
 autotiling
 dmenu
-feh
 arcolinux-i3wm-git
 arcolinux-config-i3wm-git
 arcolinux-i3wm-dconf-git

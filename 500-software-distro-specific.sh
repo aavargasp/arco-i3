@@ -57,8 +57,6 @@ func_category Additional-distro-specific
 list=(
 arandr
 dmenu
-feh
-gmrun
 gtk-engine-murrine
 i3blocks
 imagemagick

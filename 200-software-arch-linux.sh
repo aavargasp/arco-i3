@@ -81,6 +81,7 @@ intellij-idea-community-edition
 meld
 dbeaver
 docker
+atom
 )
 
 count=0
@@ -96,7 +97,6 @@ func_category Graphics
 
 list=(
 gimp
-inkscape
 nomacs
 )
 
@@ -153,7 +153,6 @@ evince
 libreoffice-fresh
 hunspell-en_us
 hunspell-es_cl
-hunspell-es_any
 )
 
 count=0
