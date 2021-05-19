@@ -56,9 +56,7 @@ func_category Accessories
 
 list=(
 galculator
-flameshot
 simplescreenrecorder
-liferea
 )
 
 count=0
@@ -98,6 +96,8 @@ func_category Graphics
 list=(
 gimp
 nomacs
+flameshot
+maim
 )
 
 count=0
@@ -116,6 +116,7 @@ firefox-developer-edition
 thunderbird
 qbittorrent
 telegram-desktop
+liferea
 )
 
 count=0
